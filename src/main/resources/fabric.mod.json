@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "overleveled",
+	"version": "${version}",
+	"name": "Overleveled",
+	"description": "A simple server-side mod that allows you to apply overleveled enchantment books using an anvil.",
+	"authors": [
+		"KonSola5"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/overleveled",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/overleveled/logo.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"konsola5.overleveled.Overleveled"
+		]
+	},
+	"mixins": [
+		"overleveled.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.18.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
