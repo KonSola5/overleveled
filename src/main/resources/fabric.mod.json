@@ -9,9 +9,9 @@
 	],
 	"contact": {
 		"homepage": "https://www.curseforge.com/minecraft/mc-mods/overleveled",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/KonSola5/overleveled"
 	},
-	"license": "CC0-1.0",
+	"license": "Public Domain",
 	"icon": "assets/overleveled/logo.png",
 	"environment": "*",
 	"entrypoints": {
@@ -23,7 +23,7 @@
 		"overleveled.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.6",
+		"fabricloader": "*",
 		"minecraft": "~1.18.2",
 		"java": ">=17",
 		"fabric-api": "*"
